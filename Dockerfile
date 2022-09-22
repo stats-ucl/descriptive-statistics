@@ -14,7 +14,7 @@ RUN echo "Checking for 'apt.txt'..." \
         apt-get update --fix-missing > /dev/null && \
         xargs -a apt.txt apt-get install --yes && \
         apt-get clean > /dev/null && \
-        rm -rf /var/lib/apt/lists/* && \
+        rm -rf /var/lib/apt/lists/* \
         ; fi
 USER ${NB_USER}
 
