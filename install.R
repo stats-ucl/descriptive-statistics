@@ -1,0 +1,5 @@
+# Needs this to increase the R default time-out time (INLA is a big package so may break installation without this)
+options(timeout=600)
+install.packages("tidyverse")
+install.packages("dslabs")
+install.packages("kableExtra")
