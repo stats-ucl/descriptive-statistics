@@ -2,21 +2,14 @@
 
 # Session:  Descriptive Statistics 
  
-# Date:     24/09/2021
-
-# in this Session:
-
-# Prof Gianluca Baio
-# Dr Menelaos Pavlou
-# Ms Zejing Shao
-# Ms Alessia Eletti
+# Date:     23/09/2022
 
 #####################################
 
 
 # Required packages
 
-#install.packages(c("tidyverse", "dslabs", "tikzDevice"))
+#install.packages(c("tidyverse", "dslabs", "tikzDevice","cowplot","ggridges"))
 
 
 library(tikzDevice) # Loads an environement with useful packages
