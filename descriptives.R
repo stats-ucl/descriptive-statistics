@@ -11,8 +11,6 @@
 
 #install.packages(c("tidyverse", "dslabs", "tikzDevice","cowplot","ggridges"))
 
-
-library(tikzDevice) # Loads an environement with useful packages
 library(tidyverse)
 library(dslabs) # loads the R package containing the data
 library(kableExtra)
